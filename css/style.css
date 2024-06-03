@@ -45,6 +45,10 @@ h6,
     font-weight: 500 !important;
 }
 
+.unit {
+    display: inline-block;
+    margin-right: 5px; /* 可選：調整標題之間的距離 */
+}
 
 /*** Button ***/
 .btn {
