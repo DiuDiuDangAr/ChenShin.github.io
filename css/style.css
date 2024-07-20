@@ -470,7 +470,7 @@ h6,
 
 /*** Footer ***/
 .footer {
-    background: url(../img/footer.png) center center no-repeat;
+    background: url(../img/pattern_footer_2.png) center center;
     background-size: contain;
 }
 
@@ -519,8 +519,8 @@ h6,
 }
 
 .footer .copyright {
-    padding: 25px 0;
-    font-size: 14px;
+    padding: 5px 0;
+    font-size: 9px;
     border-top: 1px solid rgba(256, 256, 256, .1);
 }
 
@@ -543,3 +543,16 @@ h6,
     padding-right: 0;
     border-right: none;
 }
+
+
+/*** Certification ***/
+
+.container-middle {
+    display: flex;
+    justify-content: center; /* 水平置中 */
+    align-items: center; /* 垂直置中 */
+    height: 100%s; /* 可根據需要調整 */
+  }
+  .item-middle {
+    margin: 0 10px; /* 可選：調整每個元素之間的間距 */
+  }
