@@ -64,6 +64,20 @@
 })(jQuery);
 
 document.addEventListener("DOMContentLoaded", function() {
+    // 添加CSS样式到页面
+    const style = document.createElement('style');
+    style.textContent = `
+        #customer-name-list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center; /* 使按钮容器的子元素居中 */
+        }
+        #customer-name-list .btn {
+            margin: 5px; /* 添加外边距，使按钮之间有间隔 */
+        }
+    `;
+    document.head.appendChild(style);
+
     const names = ["良食局自助餐","老罈香川味兒","天鍋宴集團","山櫻精緻涮涮鍋","川揚郁坊小館",
         "珠記大橋頭油飯","紅林鐵板燒","樂活養身鍋 連城總店","龜山島現撈海鮮","真好味茶餐廳","小南門福州傻瓜乾麵 延平總店",
         "香港陳記燒臘便當粥麵","北北車滷肉飯","娥嬤炖鰻 （原昌吉紅燒鰻）","夯・魯肉飯","美麗餐廳",
